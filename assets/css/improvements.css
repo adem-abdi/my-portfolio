@@ -1,0 +1,155 @@
+/* UI Improvements */
+
+/* Hero Section Improvements */
+.hero {
+    padding: 140px 0 100px 0 !important;
+}
+
+/* Project Links Improvements */
+.project-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, rgba(173,139,115,0.15) 0%, rgba(173,139,115,0.05) 100%);
+    border: 2px solid rgba(173,139,115,0.3);
+    border-radius: 50%;
+    color: #AD8B73;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(173,139,115,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.project-link:hover::before {
+    left: 100%;
+}
+
+.project-link:hover {
+    background: linear-gradient(135deg, rgba(173,139,115,0.25) 0%, rgba(173,139,115,0.15) 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 32px rgba(173,139,115,0.4);
+    border-color: rgba(173,139,115,0.5);
+}
+
+.project-link svg {
+    width: 22px;
+    height: 22px;
+    transition: all 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+
+.project-link:hover svg {
+    transform: scale(1.1);
+}
+
+/* Footer Social Links Improvements */
+.social-card {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.socialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(219,180,144,.28);
+    border-radius: 15px;
+    color: #AD8B73;
+    background: linear-gradient(145deg, rgba(195,150,115,.15), rgba(255,255,255,.035));
+    text-decoration: none;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 8px 22px rgba(0,0,0,.12);
+}
+
+.socialContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 10%, rgba(255,255,255,.2), transparent 58%);
+    opacity: .4;
+    transition: opacity .3s ease;
+}
+
+.socialContainer:hover {
+    color: #f7dfca;
+    border-color: rgba(219,180,144,.7);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.25), 0 0 0 4px rgba(195,150,115,.08);
+}
+
+.social-icon {
+    width: 22px;
+    height: 22px;
+    transition: all 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+
+.socialContainer:hover .social-icon {
+    transform: scale(1.12);
+}
+
+
+
+/* Admin Login Improvements */
+.login-container {
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(173,139,115,0.3);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.form-group input {
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(173,139,115,0.2);
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #AD8B73;
+    box-shadow: 0 0 0 4px rgba(173,139,115,0.1);
+    transform: translateY(-2px);
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #AD8B73 0%, #9B7A63 100%);
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(173,139,115,0.3);
+}
+
+.login-btn:hover {
+    background: linear-gradient(135deg, #9B7A63 0%, #AD8B73 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(173,139,115,0.4);
+} 

@@ -1,0 +1,437 @@
+/* Responsive Improvements - Mobile-First Approach */
+
+/* Enhanced Mobile Navigation */
+@media (max-width: 768px) {
+    .nav-menu {
+        backdrop-filter: blur(20px);
+        border-top: 1px solid rgba(173, 139, 115, 0.2);
+    }
+    
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+    
+    .nav-link {
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    
+    .nav-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Enhanced Touch Targets - 44px minimum */
+@media (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        padding: 14px 28px;
+        min-height: 44px;
+        font-size: 1rem;
+    }
+    
+    .project-link {
+        width: 44px;
+        height: 44px;
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    .socialContainer {
+        width: 48px;
+        height: 48px;
+        min-height: 48px;
+        min-width: 48px;
+    }
+}
+
+/* Improved Typography Scale */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 12px;
+    }
+    
+    .hero-text h2 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+        margin-bottom: 16px;
+    }
+    
+    .hero-text p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 1.4rem;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+    }
+    
+    .services-header h2,
+    .projects-header h2,
+    .skills-header h2,
+    .testimonials-header h2,
+    .contact-header h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Enhanced Grid Layouts */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 0 10px;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 0 10px;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 0 10px;
+    }
+}
+
+/* Enhanced Service Cards */
+@media (max-width: 768px) {
+    .service-card {
+        padding: 32px 24px;
+        text-align: center;
+        border-radius: 16px;
+    }
+    
+    .service-card.highlighted {
+        transform: none;
+        margin: 0;
+    }
+    
+    .service-icon {
+        margin-bottom: 20px;
+    }
+    
+    .service-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    
+    .service-card p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+/* Enhanced Project Cards */
+@media (max-width: 768px) {
+    .project-card {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    
+    .project-image {
+        height: 200px;
+    }
+    
+    .project-image img {
+        object-fit: cover;
+        border-radius: 0;
+    }
+    
+    .project-content {
+        padding: 24px 20px;
+    }
+    
+    .project-title {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .project-description {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+    
+    .project-links {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+/* Enhanced Skills Section */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 0 10px;
+    }
+    
+    .skills-category {
+        padding: 24px 20px;
+        border-radius: 16px;
+    }
+    
+    .category-title {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .skill-item {
+        margin-bottom: 20px;
+    }
+    
+    .skill-header {
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+    
+    .skill-name {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .skill-percentage {
+        font-size: 0.9rem;
+        color: #AD8B73;
+    }
+}
+
+/* Enhanced Contact Section */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 32px 20px;
+        border-radius: 16px;
+        gap: 32px;
+    }
+    
+    .contact-info,
+    .contact-form {
+        padding: 28px 24px;
+        border-radius: 12px;
+    }
+    
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 14px 16px;
+        font-size: 1rem;
+        border-radius: 8px;
+        min-height: 44px;
+    }
+    
+    .form-group textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+    
+    .submit-btn {
+        width: 100%;
+        padding: 16px;
+        font-size: 1.1rem;
+        min-height: 48px;
+        border-radius: 12px;
+    }
+}
+
+/* Enhanced Footer */
+@media (max-width: 768px) {
+    .footer {
+        padding: 48px 0 24px;
+    }
+    
+    .footer-content {
+        text-align: center;
+        gap: 32px;
+        padding: 0 20px;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+    }
+    
+    .footer-section p,
+    .footer-section a {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .social-card {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .footer-bottom {
+        margin-top: 32px;
+        padding-top: 24px;
+    }
+}
+
+/* Improved Spacing and Padding */
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 20px;
+    }
+    
+    .hero {
+        padding: 100px 20px 80px;
+        min-height: calc(100vh - 70px);
+    }
+    
+    .hero-stats {
+        gap: 24px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        min-width: 120px;
+        text-align: center;
+    }
+    
+    .stat-number {
+        font-size: 2.2rem;
+        margin-bottom: 4px;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 48px 16px;
+    }
+    
+    .hero {
+        padding: 90px 16px 60px;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .hero-stats {
+        gap: 16px;
+    }
+    
+    .stat-item {
+        min-width: 100px;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+    
+    .stat-label {
+        font-size: 0.85rem;
+    }
+}
+
+/* Enhanced Image Responsiveness */
+@media (max-width: 768px) {
+    .image-container {
+        width: 280px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    
+    .image-container img {
+        border-radius: 16px;
+    }
+    
+    .tech-badge {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        width: 240px;
+        height: 300px;
+    }
+    
+    .hero-container {
+        gap: 32px;
+    }
+}
+
+/* Loading States and Performance */
+.lazy {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.lazy.loaded {
+    opacity: 1;
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .btn-primary,
+    .btn-secondary {
+        border-width: 3px;
+    }
+    
+    .nav-link:focus,
+    .btn:focus {
+        outline: 3px solid #AD8B73;
+        outline-offset: 2px;
+    }
+}
+
+/* Dark Mode Support (for future implementation) */
+@media (prefers-color-scheme: dark) {
+    /* Portfolio already uses dark theme, maintain consistency */
+}

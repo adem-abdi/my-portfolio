@@ -1,0 +1,56 @@
+@import url('responsive-improvements.base.css');
+
+/* Final section-flow fix: keep every section in normal document flow and reserve space for the fixed navbar. */
+html {
+    scroll-padding-top: 86px;
+}
+
+body {
+    overflow-x: clip;
+}
+
+.section {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding-left: max(20px, calc((100vw - 1160px) / 2));
+    padding-right: max(20px, calc((100vw - 1160px) / 2));
+    scroll-margin-top: 86px;
+}
+
+.hero {
+    min-height: min(100vh, 860px);
+    height: auto;
+    position: relative;
+    isolation: isolate;
+}
+
+.hero-container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+#services,
+#projects,
+#skills,
+#testimonials,
+#contact {
+    position: relative;
+    z-index: 1;
+    clear: both;
+}
+
+@media (max-width: 800px) {
+    .hero {
+        min-height: auto;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 96px;
+        padding-bottom: 64px;
+    }
+}

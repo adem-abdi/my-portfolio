@@ -1,0 +1,261 @@
+{
+    "site_content": {
+        "hero_title": "Adem Abdifith",
+        "hero_subtitle": "Full-Stack Developer & Tech Consultant",
+        "hero_description": "Transforming ideas into exceptional digital experiences. I help agencies and founders build powerful web applications that drive business growth.",
+        "hero_badge_1": "PHP",
+        "hero_badge_2": "JavaScript",
+        "hero_badge_3": "MySQL",
+        "hero_image": "assets/images/mypic.png",
+        "services_heading": "My Services",
+        "services_intro": "Comprehensive web development solutions tailored to your business needs",
+        "projects_heading": "Featured Projects",
+        "projects_intro": "Showcasing my latest work and technical expertise across various domains",
+        "skills_heading": "Technical Skills",
+        "skills_intro": "My expertise across different technology stacks and development domains",
+        "testimonials_heading": "Client Testimonials",
+        "testimonials_intro": "What clients say about working with me and the quality of my deliverables",
+        "contact_heading": "Get In Touch",
+        "contact_intro": "Ready to start your next project? Let's discuss how I can help bring your ideas to life",
+        "footer_about": "Full Stack Developer passionate about creating innovative digital solutions. Let's work together to bring your ideas to life.",
+        "cta_primary_text": "Start Your Project",
+        "cta_secondary_text": "View My Work",
+        "stat_number_1": "10+",
+        "stat_label_1": "Projects Completed",
+        "stat_number_2": "2+",
+        "stat_label_2": "Years Experience",
+        "stat_number_3": "100%",
+        "stat_label_3": "Client Satisfaction",
+        "contact_phone": "+251 912 345 678",
+        "contact_email": "adem@example.com",
+        "contact_location": "Addis Ababa, Ethiopia"
+    },
+    "services": [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "description": "Custom web applications built with modern technologies. From simple landing pages to complex e-commerce platforms.",
+            "icon_svg": "",
+            "highlighted": 0,
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "title": "Mobile Development",
+            "description": "Native and cross-platform mobile applications for iOS and Android. React Native and Flutter expertise.",
+            "icon_svg": "",
+            "highlighted": 0,
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "title": "UI/UX Design",
+            "description": "User-centered design that creates intuitive and engaging user experiences. Wireframes to final prototypes.",
+            "icon_svg": "",
+            "highlighted": 1,
+            "sort_order": 3
+        },
+        {
+            "id": 4,
+            "title": "Database Design",
+            "description": "Efficient database architecture and optimization. MySQL, PostgreSQL, and NoSQL solutions.",
+            "icon_svg": "",
+            "highlighted": 0,
+            "sort_order": 4
+        },
+        {
+            "id": 5,
+            "title": "API Development",
+            "description": "RESTful and GraphQL APIs for seamless integration. Secure, scalable, and well-documented.",
+            "icon_svg": "",
+            "highlighted": 0,
+            "sort_order": 5
+        },
+        {
+            "id": 6,
+            "title": "Tech Consulting",
+            "description": "Strategic technology consulting to help businesses choose the right tech stack and architecture for their needs.",
+            "icon_svg": "",
+            "highlighted": 0,
+            "sort_order": 6
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Commerce Platform",
+            "description": "A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard. Built with modern web technologies for optimal performance and user experience.",
+            "image_path": "",
+            "github_link": "https://github.com/adem/ecommerce-platform",
+            "demo_link": "https://demo-ecommerce.adem.com",
+            "tech_stack": "PHP, MySQL, JavaScript, Bootstrap",
+            "project_date": "2024-01-15",
+            "featured": 1,
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "title": "Task Management App",
+            "description": "A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Designed for productivity and team efficiency.",
+            "image_path": "",
+            "github_link": "https://github.com/adem/task-manager",
+            "demo_link": "https://taskmanager.adem.com",
+            "tech_stack": "React, Node.js, MongoDB, Socket.io",
+            "project_date": "2024-02-20",
+            "featured": 0,
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "title": "Portfolio Website",
+            "description": "A modern, responsive portfolio website with admin panel for content management. Features dynamic content updates and professional design.",
+            "image_path": "",
+            "github_link": "https://github.com/adem/portfolio-website",
+            "demo_link": "https://adem-portfolio.com",
+            "tech_stack": "PHP, MySQL, HTML5, CSS3, JavaScript",
+            "project_date": "2024-03-10",
+            "featured": 0,
+            "sort_order": 3
+        },
+        {
+            "id": 4,
+            "title": "Weather Dashboard",
+            "description": "A real-time weather dashboard with location-based forecasts, interactive maps, and historical data visualization. Provides comprehensive weather information.",
+            "image_path": "",
+            "github_link": "https://github.com/adem/weather-dashboard",
+            "demo_link": "https://weather.adem.com",
+            "tech_stack": "Python, Django, PostgreSQL, Chart.js",
+            "project_date": "2024-04-05",
+            "featured": 0,
+            "sort_order": 4
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML/CSS",
+            "percentage": 95,
+            "category": "Frontend",
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "percentage": 90,
+            "category": "Frontend",
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "name": "PHP",
+            "percentage": 85,
+            "category": "Backend",
+            "sort_order": 1
+        },
+        {
+            "id": 4,
+            "name": "Python",
+            "percentage": 80,
+            "category": "Backend",
+            "sort_order": 2
+        },
+        {
+            "id": 5,
+            "name": "MySQL",
+            "percentage": 90,
+            "category": "Database",
+            "sort_order": 1
+        },
+        {
+            "id": 6,
+            "name": "Oracle",
+            "percentage": 75,
+            "category": "Database",
+            "sort_order": 2
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "client_name": "sarah",
+            "client_title": "CEO, TechStart Inc.",
+            "testimonial_text": "Adem transformed our business with a custom e-commerce platform. His attention to detail and technical expertise exceeded our expectations. The project was delivered on time and under budget.",
+            "rating": 5,
+            "client_image": "",
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "client_name": "Michael Chen",
+            "client_title": "Founder, Digital Solutions",
+            "testimonial_text": "Working with Adem was a game-changer for our startup. He not only built our MVP but also provided valuable insights on scaling our technology stack. Highly recommended!",
+            "rating": 5,
+            "client_image": "",
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "client_name": "Emily Rodriguez",
+            "client_title": "Marketing Director, GrowthCo",
+            "testimonial_text": "Adem's expertise in both frontend and backend development made our project seamless. His communication skills and ability to understand our business needs were exceptional.",
+            "rating": 5,
+            "client_image": "",
+            "sort_order": 3
+        },
+        {
+            "client_name": "faarah mohamed faarah",
+            "client_title": "cto of tcs company",
+            "testimonial_text": "their job was 100% perfect",
+            "rating": 4,
+            "client_image": "",
+            "sort_order": 99
+        }
+    ],
+    "contact_info": [
+        {
+            "id": 1,
+            "contact_type": "Phone",
+            "contact_value": "+251 912 345 678",
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "contact_type": "Email",
+            "contact_value": "adem@example.com",
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "contact_type": "Location",
+            "contact_value": "Addis Ababa, Ethiopia",
+            "sort_order": 3
+        }
+    ],
+    "social_links": [
+        {
+            "id": 1,
+            "platform": "Instagram",
+            "url": "https://instagram.com/adem_abdifith",
+            "sort_order": 1
+        },
+        {
+            "id": 2,
+            "platform": "TikTok",
+            "url": "https://tiktok.com/@adem_abdifith",
+            "sort_order": 2
+        },
+        {
+            "id": 3,
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/adem-abdifith",
+            "sort_order": 3
+        },
+        {
+            "id": 4,
+            "platform": "WhatsApp",
+            "url": "https://wa.me/251912345678",
+            "sort_order": 4
+        }
+    ],
+    "contact_messages": []
+}
